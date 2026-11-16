@@ -1,0 +1,7 @@
+,t,p (one-sided)
+"Main vs zero change, validation",1.7392062259925822,0.04099924735937166
+"Spread only vs zero change, validation",1.7675929058244402,0.03856449242806059
+"Main vs spread only, validation",0.8328963356690543,0.20245159822513648
+"Main vs zero change, evaluation",1.893189592006011,0.029166330510021377
+"Spread only vs zero change, evaluation",1.8420638922335657,0.032732902324653534
+"Main vs spread only, evaluation",0.6320066189278754,0.2636912760776855

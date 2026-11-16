@@ -1,0 +1,327 @@
+{
+  "r2_flat_price": 0.015259564166373196,
+  "r2_spread_full": 0.10236154593871849,
+  "seasonal_F": 1.0787611059544753,
+  "seasonal_p": 0.3784531990138502,
+  "corr_with_target": {
+    "spread": -0.3031266901033495,
+    "inventory_growth": -0.11289519266612051,
+    "prev_change": -0.06927446449445906,
+    "ip_growth": -0.05270580704935412
+  },
+  "corr_spread_inventory": 0.16476020100612285,
+  "table1": {
+    "Main: coefficient": {
+      "const": 0.03862472870107364,
+      "inventory_growth": -0.03169244048206531,
+      "spread": -0.17622002039295392
+    },
+    "Main: Newey-West t": {
+      "const": 1.4593982139413013,
+      "inventory_growth": -1.3239012656915252,
+      "spread": -5.097069033228683
+    },
+    "Main: p": {
+      "const": 0.14556855044338296,
+      "inventory_growth": 0.18660797704444337,
+      "spread": 6.331979675574924e-07
+    },
+    "Main: ordinary t": {
+      "const": 1.347729750537929,
+      "inventory_growth": -1.2286570926940685,
+      "spread": -5.050596881359971
+    },
+    "Spread only: coefficient": {
+      "const": 0.03838424672972115,
+      "spread": -0.18410877817422205
+    },
+    "Spread only: Newey-West t": {
+      "const": 1.4563530736648542,
+      "spread": -5.655638384075096
+    }
+  },
+  "r2_main": 0.09710601722091838,
+  "r2_simple": 0.09227265843500454,
+  "F_gamma": 1.5095982514274724,
+  "half_life": 3.575655121031688,
+  "long_run": 0.2089389606426197,
+  "one_sd_spread": 0.14329864624738595,
+  "one_sd_inventory": 0.0348602159746909,
+  "table2": {
+    "Breusch-Godfrey (12 lags)": 0.759468754616916,
+    "Durbin-Watson (statistic)": 1.9556928417656643,
+    "White": 0.0002059472074555542,
+    "Breusch-Pagan": 0.01812247593323865,
+    "ARCH-LM (6 lags)": 0.003177987832454432,
+    "Jarque-Bera": 1.7729338388681805e-97,
+    "Residual kurtosis (statistic)": 8.807155770340053,
+    "RESET": 0.03402270116633057,
+    "CUSUM": 0.08182712798921217,
+    "VIF (statistic)": 1.0350503412003287
+  },
+  "chow": {
+    "July 2008 (data to 2018)": 0.35692142939724725,
+    "November 2014 (data to 2018)": 0.8493623484237511,
+    "March 2020 (full sample)": 0.002958564769780847
+  },
+  "subperiod_spread": {
+    "1995-03 to 2004-12": -0.33607270483118856,
+    "2005-01 to 2014-12": -0.20727321173983632,
+    "2015-01 to 2024-05": -0.2245673405212302
+  },
+  "slope_contango": -0.14248525917510024,
+  "slope_backwardation": -0.24800266697127443,
+  "p_asym": 0.42255534711464593,
+  "table3": {
+    "Spread + inventories": {
+      "Validation 2015-18 | n": 48.0,
+      "Validation 2015-18 | RMSE": 0.44033951763706136,
+      "Validation 2015-18 | MAE": 0.28336932795409936,
+      "Validation 2015-18 | R2 vs zero (%)": 9.449459467852217,
+      "Validation 2015-18 | Direction right (%)": 50.0,
+      "Evaluation 2019-Jun 2024 | n": 66.0,
+      "Evaluation 2019-Jun 2024 | RMSE": 0.7535927007744287,
+      "Evaluation 2019-Jun 2024 | MAE": 0.45068201117853063,
+      "Evaluation 2019-Jun 2024 | R2 vs zero (%)": 10.929829752707809,
+      "Evaluation 2019-Jun 2024 | Direction right (%)": 53.03030303030303
+    },
+    "Spread only": {
+      "Validation 2015-18 | n": 48.0,
+      "Validation 2015-18 | RMSE": 0.4418470734930495,
+      "Validation 2015-18 | MAE": 0.2811247131169257,
+      "Validation 2015-18 | R2 vs zero (%)": 8.828376546837703,
+      "Validation 2015-18 | Direction right (%)": 52.083333333333336,
+      "Evaluation 2019-Jun 2024 | n": 66.0,
+      "Evaluation 2019-Jun 2024 | RMSE": 0.7538230759937905,
+      "Evaluation 2019-Jun 2024 | MAE": 0.43989710046721664,
+      "Evaluation 2019-Jun 2024 | R2 vs zero (%)": 10.875363470247112,
+      "Evaluation 2019-Jun 2024 | Direction right (%)": 57.57575757575758
+    },
+    "Zero change": {
+      "Validation 2015-18 | n": 48.0,
+      "Validation 2015-18 | RMSE": 0.4627454303754216,
+      "Validation 2015-18 | MAE": 0.31000000000000066,
+      "Validation 2015-18 | R2 vs zero (%)": 0.0,
+      "Validation 2015-18 | Direction right (%)": NaN,
+      "Evaluation 2019-Jun 2024 | n": 66.0,
+      "Evaluation 2019-Jun 2024 | RMSE": 0.7984919498275452,
+      "Evaluation 2019-Jun 2024 | MAE": 0.4598484848484854,
+      "Evaluation 2019-Jun 2024 | R2 vs zero (%)": 0.0,
+      "Evaluation 2019-Jun 2024 | Direction right (%)": NaN
+    },
+    "Historical mean": {
+      "Validation 2015-18 | n": 48.0,
+      "Validation 2015-18 | RMSE": 0.46366911353024937,
+      "Validation 2015-18 | MAE": 0.3107194220874824,
+      "Validation 2015-18 | R2 vs zero (%)": -0.3996171428672701,
+      "Validation 2015-18 | Direction right (%)": 43.75,
+      "Evaluation 2019-Jun 2024 | n": 66.0,
+      "Evaluation 2019-Jun 2024 | RMSE": 0.7997681519113037,
+      "Evaluation 2019-Jun 2024 | MAE": 0.4610181073939006,
+      "Evaluation 2019-Jun 2024 | R2 vs zero (%)": -0.31990853229610927,
+      "Evaluation 2019-Jun 2024 | Direction right (%)": 34.84848484848485
+    }
+  },
+  "rmse_cut_val": 4.8419522414694605,
+  "rmse_cut_test": 5.623005850317419,
+  "mean_abs_forecast": 0.16583504718667466,
+  "mean_abs_actual": 0.4598484848484854,
+  "coverage": {
+    "50% range": {
+      "Constant, all": 65.78947368421053,
+      "Constant, 2015-18": 70.83333333333334,
+      "Constant, 2019-24": 62.121212121212125,
+      "Recent volatility, all": 64.91228070175438,
+      "Recent volatility, 2015-18": 64.58333333333334,
+      "Recent volatility, 2019-24": 65.15151515151516
+    },
+    "90% range": {
+      "Constant, all": 88.59649122807018,
+      "Constant, 2015-18": 95.83333333333334,
+      "Constant, 2019-24": 83.33333333333334,
+      "Recent volatility, all": 86.8421052631579,
+      "Recent volatility, 2015-18": 91.66666666666666,
+      "Recent volatility, 2019-24": 83.33333333333334
+    }
+  },
+  "confident_months": 42,
+  "confident_right": 71.42857142857143,
+  "s_last": 0.5332184189590871,
+  "crash_share": 50.939842004430936,
+  "mar2020_actual": 3.8500000000000014,
+  "mar2020_forecast": 0.05344464132406568,
+  "mean_abs_spread_term": 0.120315628915437,
+  "mean_abs_inventory_term": 0.05709115169903212,
+  "latest_spread": -0.9000000000000057,
+  "latest_ig": 1.4740079287895114,
+  "latest_forecast": 0.14661507642185112,
+  "latest_terms": {
+    "Constant": 0.018987609119291024,
+    "Spread term": 0.17549694104857363,
+    "Inventory term": -0.047869473746013524
+  },
+  "latest_s": 0.5337017302270857,
+  "latest_low": -0.7312461502524468,
+  "latest_high": 1.024476303096149,
+  "latest_p_up": 0.608231825143614,
+  "clark_west": {
+    "Main vs zero change, validation": 0.04099924735937166,
+    "Spread only vs zero change, validation": 0.03856449242806059,
+    "Main vs spread only, validation": 0.20245159822513648,
+    "Main vs zero change, evaluation": 0.029166330510021377,
+    "Spread only vs zero change, evaluation": 0.032732902324653534,
+    "Main vs spread only, evaluation": 0.2636912760776855
+  },
+  "rmse_cut_ex2020": 1.7876489222624303,
+  "same_month_slope": 0.011564078124847249,
+  "same_month_t": 4.641136752134049,
+  "same_month_r2": 0.30680112987073493,
+  "spr_check": {
+    "Change in monthly Inventories (m bbl)": {
+      "2011": -37.282,
+      "2020": 66.691,
+      "2022": -218.507
+    },
+    "Sum of weekly commercial changes (m bbl)": {
+      "2011": -5.577,
+      "2020": 63.573,
+      "2022": 2.795
+    }
+  },
+  "table4": {
+    "All months (n = 351): slope": {
+      "Month-end to two days before expiry": 0.02255250456302326,
+      "Final two trading days before expiry": -0.2728065530448116,
+      "Roll day": 0.07218784278628039,
+      "New pair to month-end": -0.028353596065185206,
+      "Whole month": -0.20641980176069308
+    },
+    "t": {
+      "Month-end to two days before expiry": 0.37872465160066676,
+      "Final two trading days before expiry": -3.04654742888552,
+      "Roll day": 0.7652877131357997,
+      "New pair to month-end": -0.42149132234349396,
+      "Whole month": -5.237910268130199
+    },
+    "Without four extreme expiries (n = 347): slope": {
+      "Month-end to two days before expiry": -0.10594810119209798,
+      "Final two trading days before expiry": -0.13282020558088314,
+      "Roll day": 0.013270193640030153,
+      "New pair to month-end": -0.013443971056358174,
+      "Whole month": -0.23894208418930915
+    },
+    "t ": {
+      "Month-end to two days before expiry": -1.8657066014907164,
+      "Final two trading days before expiry": -3.7791577827690315,
+      "Roll day": 0.19965724790389247,
+      "New pair to month-end": -0.495055089540423,
+      "Whole month": -5.239302029219682
+    }
+  },
+  "contango_months": 80,
+  "contango_narrowed": 58.75,
+  "contango_median": -0.120000000000001,
+  "days_before": 12.21082621082621,
+  "breakeven_cost": 0.05642857142857162,
+  "bands_positive": 5,
+  "bands_tested": 6,
+  "trading": {
+    "Main, 2015-18": {
+      "Months": 48.0,
+      "Active months": 17.0,
+      "Long / short": "4 / 13",
+      "Hit rate (%)": 70.58823529411765,
+      "Gross result": 4.08000000000002,
+      "Net result": 2.3800000000000203,
+      "Average gain": 0.36583333333333484,
+      "Average loss": -0.4019999999999996,
+      "Best month": 0.679999999999994,
+      "Worst month": -0.6300000000000011,
+      "Sharpe ratio (annualised)": 0.6793553460152002,
+      "Maximum drawdown": -1.509999999999998,
+      "Share of gross from best two months (%)": 36.27450980392167
+    },
+    "Main, 2019-24": {
+      "Months": 66.0,
+      "Active months": 32.0,
+      "Long / short": "27 / 5",
+      "Hit rate (%)": 62.5,
+      "Gross result": 6.980000000000018,
+      "Net result": 3.780000000000017,
+      "Average gain": 0.7857142857142857,
+      "Average loss": -0.40111111111111003,
+      "Best month": 2.56,
+      "Worst month": -1.5599999999999938,
+      "Sharpe ratio (annualised)": 0.3434506142889598,
+      "Maximum drawdown": -2.279999999999998,
+      "Share of gross from best two months (%)": 59.169054441260776
+    },
+    "Main, all": {
+      "Months": 114.0,
+      "Active months": 49.0,
+      "Long / short": "31 / 18",
+      "Hit rate (%)": 65.3061224489796,
+      "Gross result": 11.060000000000038,
+      "Net result": 6.1600000000000374,
+      "Average gain": 0.5919230769230777,
+      "Average loss": -0.401304347826086,
+      "Best month": 2.56,
+      "Worst month": -1.5599999999999938,
+      "Sharpe ratio (annualised)": 0.4003972928008127,
+      "Maximum drawdown": -2.279999999999994,
+      "Share of gross from best two months (%)": 37.341772151898724
+    },
+    "Main, all without Mar-Jun 2020": {
+      "Months": 110.0,
+      "Active months": 46.0,
+      "Long / short": "31 / 15",
+      "Hit rate (%)": 63.04347826086957,
+      "Gross result": 7.100000000000037,
+      "Net result": 2.500000000000036,
+      "Average gain": 0.5100000000000008,
+      "Average loss": -0.401304347826086,
+      "Best month": 1.370000000000013,
+      "Worst month": -1.5599999999999938,
+      "Sharpe ratio (annualised)": 0.1962633023791864,
+      "Maximum drawdown": -2.279999999999998,
+      "Share of gross from best two months (%)": 41.267605633802496
+    },
+    "Spread only, all": {
+      "Months": 114.0,
+      "Active months": 42.0,
+      "Long / short": "27 / 15",
+      "Hit rate (%)": 66.66666666666666,
+      "Gross result": 8.600000000000044,
+      "Net result": 4.400000000000043,
+      "Average gain": 0.6665217391304362,
+      "Average loss": -0.5752631578947361,
+      "Best month": 2.56,
+      "Worst month": -1.7300000000000026,
+      "Sharpe ratio (annualised)": 0.2618331485783461,
+      "Maximum drawdown": -3.230000000000013,
+      "Share of gross from best two months (%)": 48.0232558139534
+    },
+    "Always long, all": {
+      "Months": 114.0,
+      "Active months": 114.0,
+      "Long / short": "114 / 0",
+      "Hit rate (%)": 45.614035087719294,
+      "Gross result": -1.3300000000000054,
+      "Net result": -12.730000000000006,
+      "Average gain": 0.5017142857142863,
+      "Average loss": -0.38341772151898795,
+      "Best month": 3.7500000000000013,
+      "Worst month": -2.7600000000000002,
+      "Sharpe ratio (annualised)": -0.5683565145428014,
+      "Maximum drawdown": -14.669999999999991,
+      "Share of gross from best two months (%)": NaN
+    }
+  },
+  "trading_double_cost": {
+    "all": 1.2600000000000384,
+    "2015-18": 0.6800000000000196,
+    "2019-24": 0.5800000000000183
+  },
+  "trading_years_up": 8,
+  "trading_years": 10
+}
